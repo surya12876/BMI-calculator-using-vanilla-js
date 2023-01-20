@@ -17,7 +17,8 @@ ch.addEventListener("click",function(){
         const di2=document.createElement("div")
         const weight=parseFloat(wh.value)
         const height=parseFloat(h.value) 
-        const BMI=(weight)/((height*0.305)**2)
+        const height2=height*0.305
+        const BMI=(weight)/(height2**2)
         
         
        
