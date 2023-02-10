@@ -28,7 +28,8 @@ ch.addEventListener("click",function(){
     di2.append(document.createTextNode(" "))
         di2.append(BMI)
         di2.append(document.createTextNode("\n"))
-        
+        wh.value=""
+    h.value=""
    
     
  di2.classList.add("change")
